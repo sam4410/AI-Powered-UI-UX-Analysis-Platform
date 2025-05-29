@@ -3,6 +3,12 @@ import os
 import tempfile
 from dotenv import load_dotenv
 from PIL import Image
+import sys
+try:
+    import pysqlite3
+    sys.modules['sqlite3'] = pysqlite3
+except ImportError:
+    pass
 from crewai_tools import VisionTool
 from crewai import Agent, Task, Crew, Process
 from langchain_openai import ChatOpenAI
