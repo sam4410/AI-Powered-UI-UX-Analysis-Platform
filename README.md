@@ -14,4 +14,4 @@ A multi-agent AI system that analyzes UI/UX designs using CrewAI and provides co
 3. Run: \`streamlit run app.py\`
 
 ## Live Demo
-[Your Streamlit Cloud URL will go here]" > README.md
+[Your Streamlit Cloud URL will go here]" > (https://ai-powered-ui-ux-analysis-platform-jbsnhd8nwnzdj5mg2gq8tc.streamlit.app/)
