@@ -1,8 +1,9 @@
+--upgrade
+crewai-tools==latest_version_number
 streamlit
 python-dotenv==1.0.0
 Pillow==10.0.1
 crewai
-crewai-tools
 langchain-openai
 langchain
 langchain-core
