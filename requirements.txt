@@ -1,11 +1,11 @@
-streamlit==1.28.1
+streamlit
 python-dotenv==1.0.0
 Pillow==10.0.1
-crewai==0.121.1
+crewai
 crewai-tools
-langchain-openai==0.1.7
-langchain==0.3.24
-langchain-core==0.2.5
+langchain-openai
+langchain
+langchain-core
 openai==1.30.5
 pydantic==2.7.4
 requests==2.31.0
