@@ -9,4 +9,5 @@ langchain-core
 openai
 pydantic
 requests
+pysqlite3-binary
 typing-extensions
