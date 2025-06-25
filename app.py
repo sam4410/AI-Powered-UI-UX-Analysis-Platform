@@ -13,10 +13,10 @@ from crewai_tools import VisionTool
 from crewai import Agent, Task, Crew, Process
 from langchain_openai import ChatOpenAI
 import io
-from html_utils import extract_html_from_task_result
-from mockup_renderer import render_mockup_tab
-from diagnostics import timed_agent_task, display_latency_summary
-from custom_image_interpreter import CustomImageInterpreter
+from utils.html_utils import extract_html_from_task_result
+from utils.mockup_renderer import render_mockup_tab
+from utils.diagnostics import timed_agent_task, display_latency_summary
+from utils.custom_image_interpreter import CustomImageInterpreter
 from utils.layout_injection import extract_layout_tree, build_mockup_prompt
 import nest_asyncio
 nest_asyncio.apply()
