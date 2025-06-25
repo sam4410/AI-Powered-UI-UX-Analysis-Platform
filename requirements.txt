@@ -11,3 +11,4 @@ pydantic
 requests
 pysqlite3-binary
 typing-extensions
+nest_asyncio
