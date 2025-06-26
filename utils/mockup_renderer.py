@@ -47,12 +47,14 @@ def render_mockup_tab(mockup_html: str, download_filename: str = "mockup_wirefra
 
     try:
         st.components.v1.html(cleaned_html, height=700, scrolling=True)
-
+        
+        view_suffix = "_compare" if st.session_state.get("show_comparison") else "_normal"
         st.download_button(
             label="💾 Download Full HTML",
             data=mockup_html,
             file_name=download_filename,
-            mime="text/html"
+            mime="text/html",
+            key=f"html_mockup_download_btn{view_suffix}"
         )
 
         with st.expander("🔍 Show Raw HTML Output"):
